@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --company-dark-blue: #003B6D;
+  --company-light-blue: #6699CC;
+  --company-dark-grey: #676767;
+  --company-light-grey: #BDBDBD;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  color: var(--company-light-grey);
+}
+
+header {
+  background-color: var(--company-dark-blue);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: var(--company-light-blue);
+}
+
+.active-link {
+  background-color: var(--company-light-blue);
+  color: var(--company-dark-grey);
+}
+
+#logo {
+  height: 40px; /*fix height and positioning of logo and add branding*/
+}
+
+#hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/eric-ward-ISg37AI2A-s-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.floating-box {
+  position: absolute;
+  padding: 50px;
+  background-color: rgba(189,189,189,30%);
+}
+
+.box1 {
+  right: 50%;
+  top: 20%;
+}
+
+.box2 {
+  left: 50%;
+  top: 50%;
+}
