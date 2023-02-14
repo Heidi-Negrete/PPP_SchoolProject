@@ -1,0 +1,16 @@
+main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--company-light-blue);
+  color: var(--company-dark-blue);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  padding: 50px;
+}

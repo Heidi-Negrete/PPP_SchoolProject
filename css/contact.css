@@ -1,0 +1,66 @@
+main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--company-light-blue);
+  color: var(--company-dark-blue);
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+p {
+  padding: 50px;
+}
+
+.container {
+  align-self: center;
+  width: 50%;
+  padding: 12px 24px 24px 24px;
+  margin: 48px 12px;
+  background: var(--company-light-grey);
+  border-radius: 4px;
+}
+
+label {
+  font-size: 0.85em;
+  margin-left: 12px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background: #64B5F6;
+  margin: 0 auto;
+  outline: 0;
+  color: white;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: all ease-in-out 0.1s;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background: #2196F3;

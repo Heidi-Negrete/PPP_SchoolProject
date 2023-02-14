@@ -1,0 +1,31 @@
+main {
+  padding-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: var(--company-light-blue);
+  color: var(--company-dark-blue);
+}
+
+h1, h2 {
+  text-align: center;
+}
+p {
+  padding: 50px;
+}
+
+.problems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+}
+
+.problem {
+  display: inline-block;
+  width: calc(100% / 3);
+  text-align: center;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}

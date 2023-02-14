@@ -1,0 +1,26 @@
+main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--company-light-blue);
+  color: var(--company-dark-blue);
+  text-align: center;
+}
+
+h1,
+h2, h3 {
+  text-align: center;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+p {
+  padding: 50px;
+}
+
+.services {
+  width: 100vw;
+  margin-top: 16px;
+}
