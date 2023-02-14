@@ -2,7 +2,7 @@ main {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
-  background-color: var(--company-light-blue);
+  background-color: var(--company-light-grey);
   color: var(--company-dark-blue);
 }
 
@@ -14,3 +14,18 @@ h2 {
 p {
   padding: 50px;
 }
+
+.dog-pic {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 500px;
+    border-radius: 4px;
+    align-items: center;
+  }
+
+  .dog-care {
+    background-color: var(--company-light-blue);
+    padding-top: 50px;
+  }

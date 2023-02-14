@@ -3,7 +3,7 @@ main {
 
   display: flex;
   flex-direction: column;
-  background-color: var(--company-light-blue);
+  background-color: var(--company-light-grey);
   color: var(--company-dark-blue);
 }
 
@@ -23,9 +23,24 @@ p {
 }
 
 .problem {
+  font-weight: 700;
   display: inline-block;
   width: calc(100% / 3);
   text-align: center;
   margin-top: -20px;
   padding-bottom: 50px;
+}
+
+.cat-pic {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 300px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+#timeline {
+  background-color: var(--company-light-blue);
+  padding-top: 50px;
 }

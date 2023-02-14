@@ -1,17 +1,33 @@
 main {
   padding-top: 50px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: var(--company-light-blue);
+  background-color: var(--company-light-grey);
   color: var(--company-dark-blue);
 }
 
 h1,
 h2 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 p {
   padding: 50px;
+}
+
+.pet-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.pet-image {
+  display: block;
+  height: 400px;
+  margin: auto;
+}
+
+.resources {
+  background-color: var(--company-light-blue);
+  text-align: center;
 }
