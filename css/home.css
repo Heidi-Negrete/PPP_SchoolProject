@@ -1,0 +1,92 @@
+/* Page Content */
+
+#hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../images/eric-ward-ISg37AI2A-s-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.floating-box {
+  position: absolute;
+  padding: 50px;
+  background-color: rgba(189, 189, 189, 30%);
+}
+
+.box1 {
+  right: 60%;
+  top: 20%;
+}
+
+.box2 {
+  left: 60%;
+  top: 50%;
+}
+
+#about {
+  color: #000;
+  background-color: var(--company-light-blue);
+  display: flex;
+  flex-direction: column;
+}
+
+.animal-container {
+  background-color: var(--company-dark-blue);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 600px;
+  width: 100%;
+}
+
+.animal img {
+  width: 100%;
+  height: 600px;
+}
+
+.info p {
+  padding: 50px;
+  line-height: 140%;
+}
+
+.adopt {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid var(--company-dark-blue);
+}
+
+.adopt-list {
+  list-style: none;
+}
+
+.adopt-list li {
+  text-align: center;
+  padding: 10px;
+}
+
+.adopt-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.adopt-list li:hover a {
+  color: var(--company-dark-grey);
+}
+
+/*
+.adopt-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.adopt-container p {
+  line-height: 140%;
+  align-content: left;
+}
+
+.adopt-container ul {
+  display: inline-block;
+} */

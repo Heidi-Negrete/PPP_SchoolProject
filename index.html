@@ -4,28 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/home.css" />
     <title>Paradigm Pet Professionals</title>
   </head>
   <body>
     <header>
       <nav id="main-nav">
-        <ul>
-          <li id="logo">
-            <a href="#">
-              <img
-                id="logo"
-                src="/images/logo.PNG"
-                alt="Pet Paradigm Professionals"
-              />
-            </a>
+        <a href="index.html"
+          ><img src="/images/branding.PNG" id="logo" class="branding" /><img
+            id="logo"
+            src="/images/logo.PNG"
+            alt="Pet Paradigm Professionals"
+        /></a>
+        <ul class="nav-items">
+          <li class="nav-item active-link"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="cats.html">Cats</a></li>
+          <li class="nav-item"><a href="dogs.html">Dogs</a></li>
+          <li class="nav-item">
+            <a href="smallAnimals.html">Small Animals</a>
           </li>
-          <li class="nav-item active-link"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">Cats</a></li>
-          <li class="nav-item"><a href="#">Dogs</a></li>
-          <li class="nav-item"><a href="#">Small Animals</a></li>
-          <li class="nav-item"><a href="#">About Us</a></li>
-          <li class="nav-item"><a href="#">Contact Us</a></li>
+          <li class="nav-item"><a href="about.html">About Us</a></li>
+          <li class="nav-item"><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -47,8 +47,96 @@
           </p>
         </div>
       </div>
+      <section id="about">
+        <div class="info">
+          <p>
+            Our pet experts—or “Pexperts”—have been working with pet owners and
+            professionals alike for the past twelve years. They offer one-on-one
+            consultations with current and prospective pet owners as well as
+            group presentations designed for veterinary, pet shelter, and pet
+            breeding professionals.
+          </p>
+        </div>
+        <div class="animal-container">
+          <a href="dogs.html" class="animal"
+            ><img src="/images/alvan-nee-1VgfQdCuX-4-unsplash.jpg" alt=""
+          /></a>
+          <a href="cats.html" class="animal"
+            ><img src="/images/alvan-nee-ZCHj_2lJP00-unsplash.jpg" alt=""
+          /></a>
+          <a href="smallAnimals.html" class="animal"
+            ><img src="/images/leslie-soto-HRc1GLksnw0-unsplash.jpg" alt=""
+          /></a>
+        </div>
+        <div class="info">
+          <p>
+            Looking for basic pet care advice for the most common type of pets?
+            Need additional help determining which type of pet is right for you
+            and your family? We will work with you and provide tailored
+            evidence-based pet care to ensure lifelong health and wellness of
+            your new companion.
+          </p>
+        </div>
+        <div class="info adopt">
+          <img src="images/ADOPT.PNG" alt="" />
+          <div class="adopt-container">
+            <p>
+              Looking for your new best friend? The following organizations can
+              help you find and adopt the perfect companion:
+            </p>
+            <ul class="adopt-list">
+              <li>
+                <a href="https://theshelterpetproject.org/"
+                  >General Adoption Resources</a
+                >
+              </li>
+              <li><a href="https://www.aspca.org/">ASPCA</a></li>
+              <li>
+                <a
+                  href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/"
+                  >Fish Rescue</a
+                >
+              </li>
+              <li>
+                <a href="https://savethesnakes.org/snakerescuecall/"
+                  >Snake Rescue</a
+                >
+              </li>
+              <li><a href="https://ftlob.rescuegroups.org/">Bird Rescue</a></li>
+            </ul>
+            <p>
+              We are also happy to help you navigate the adoption process! We
+              will guide you through each step in the process from determining
+              which type of pet is best suited for your family and home
+              environment, to completing the necessary paperwork, to bringing
+              your new loved one home. Please fill out our contact form to
+              request a consultation. We will contact you within 48 hours to
+              schedule a consultation. All fields are required.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer><nav id="footer-nav"></nav></footer>
+    <footer>
+      <nav id="footer-nav">
+        <a href="index.html"
+          ><img src="/images/branding.PNG" id="logo" class="branding" /><img
+            id="logo"
+            src="/images/logo.PNG"
+            alt="Pet Paradigm Professionals"
+        /></a>
+        <ul class="nav-items">
+          <li class="nav-item active-link"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="cats.html">Cats</a></li>
+          <li class="nav-item"><a href="dogs.html">Dogs</a></li>
+          <li class="nav-item">
+            <a href="smallAnimals.html">Small Animals</a>
+          </li>
+          <li class="nav-item"><a href="about.html">About Us</a></li>
+          <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

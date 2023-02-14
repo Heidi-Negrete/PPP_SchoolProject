@@ -1,0 +1,81 @@
+/* Universal Setup for all pages */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --company-dark-blue: #003B6D;
+  --company-light-blue: #6699CC;
+  --company-dark-grey: #676767;
+  --company-light-grey: #BDBDBD;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header & Footer */
+
+nav {
+  background-color: white;
+}
+
+#main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer-nav {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item {
+  background-color: white;
+  vertical-align: center;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: var(--company-dark-blue);
+}
+
+.nav-item:hover {
+  background-color: var(--company-light-blue);
+}
+
+.nav-item:hover a {
+  color: #000;
+}
+
+.active-link {
+  background-color: var(--company-light-blue);
+  color: var(--company-dark-grey);
+}
+
+#logo {
+  display: inline-block;
+  height: 80px;
+  vertical-align: middle;
+}
