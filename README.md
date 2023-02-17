@@ -1,4 +1,4 @@
-# PPP_SchoolProject
+# Interactive Prototype for UI Design
 Interactive Prototype for a website for fictional pet consultancy.
 This is NOT (currently) a responsive or accessible site.
 
